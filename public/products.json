@@ -1,0 +1,75 @@
+[
+    {
+      "uuid": "469173c3-c0ca-45bd-a178-fcac662b6a6c",
+      "category": "food",
+      "name": "Brot",
+      "price": 1.5
+    },
+    {
+      "uuid": "2b4617f7-0c56-4427-aefc-f7b2bb67e805",
+      "category": "drink",
+      "name": "Milch",
+      "price": 1.2
+    },
+    {
+      "uuid": "a1c69e95-ebc7-4092-b98c-7a28271eb4ee",
+      "category": "food",
+      "name": "Eier",
+      "price": 2.5
+    },
+    {
+      "uuid": "bbebe66c-89a8-46df-aca8-f1d6bda76956",
+      "category": "food",
+      "name": "Käse",
+      "price": 3.5
+    },
+    {
+      "uuid": "e9f2a28d-8f71-4537-842a-1e6c91f3ef1e",
+      "category": "food",
+      "name": "Wurst",
+      "price": 2.5
+    },
+    {
+      "uuid": "ec15e224-1f41-4967-b241-c0c512bf8d11",
+      "category": "food",
+      "name": "Butter",
+      "price": 1.5
+    },
+    {
+      "uuid": "3c70b721-ea0e-4fc8-944e-28f1929dc3f4",
+      "category": "electronics",
+      "name": "Smartphone",
+      "price": 799.99
+    },
+    {
+      "uuid": "8a90a979-3db5-4b99-bca6-1d6d5a4c30b3",
+      "category": "electronics",
+      "name": "Laptop",
+      "price": 1299.99
+    },
+    {
+      "uuid": "9f3a7d68-42e5-4f23-a2d0-74f0b4c28591",
+      "category": "electronics",
+      "name": "Tablet",
+      "price": 599.99
+    },
+    {
+      "uuid": "a0023f3d-88f2-4823-8f81-b2827f3ef369",
+      "category": "vehicle",
+      "name": "Auto",
+      "price": 20000.00
+    },
+    {
+      "uuid": "a6bf9570-d4f2-4596-b214-6434d6e8e8a0",
+      "category": "vehicle",
+      "name": "Motorrad",
+      "price": 15000.00
+    },
+    {
+      "uuid": "bb447e25-bc78-4f27-bc45-047af92f9c94",
+      "category": "vehicle",
+      "name": "Fahrrad",
+      "price": 500.00
+    }
+  ]
+  

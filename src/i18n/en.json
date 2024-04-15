@@ -93,7 +93,7 @@
         "address": "Adress: Musterstraße 123, 12345 Musterstadt",
         "contact":"Kontact",
         "phone": "Telephon: 0123 456789",
-        "email": "E-Mail:max@musterperson.at"
+        "email": "E-Mail: max@musterperson.at"
     },
     "login": {
         "title": "Login"

@@ -13,7 +13,6 @@
   
   <script>
   import Button from '@/components/atoms/Button.vue';
-  // import { i18n } from '@/translation/index.js';
   
   export default {
     components: {

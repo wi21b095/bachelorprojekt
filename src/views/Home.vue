@@ -65,28 +65,28 @@ export default {
     },
   },
   methods: {
-    async getProducts() {
-      try {
-        this.isLoading = true;
+     async getProducts() {
+    try {
+      this.isLoading = true;
 
-        const apiUrl = "/api/products";
-
-        const response = await fetch(apiUrl, {
-          method: "GET",
-        });
-
-        if (!response.ok) {
-          throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-
-        const products = await response.json();
-        this.products = products;
-      } catch (error) {
-        console.error("Error during api-call:", error);
-      } finally {
-        this.isLoading = false;
+      // Lade die Produkte aus der JSON-Datei im public-Ordner
+      const response = await fetch("/products.json");
+      if (!response.ok) {
+        throw new Error(`Failed to fetch products: ${response.status}`);
       }
-    },
+      this.products = await response.json();
+
+      // Überprüfe, ob die Produkte geladen wurden
+      if (!this.products || !Array.isArray(this.products)) {
+        throw new Error("Invalid product data format");
+      }
+    } catch (error) {
+      console.error("Error loading products:", error);
+    } finally {
+      this.isLoading = false;
+    }
+  },
+
     handleInput(query) {
       this.searchQuery = query;
       // Update searchResults based on the new searchQuery

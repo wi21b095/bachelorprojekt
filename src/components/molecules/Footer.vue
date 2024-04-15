@@ -3,7 +3,6 @@
       <router-link class="nav-link" to="/privacy">{{ $t('footer.privacy') }}</router-link>     
       <router-link class="nav-link" to="/faq">{{ $t('footer.faq') }}</router-link>
       <router-link class="nav-link" to="/imprint">{{ $t('footer.imprint') }}</router-link>
-      <router-link class="nav-link" to="/imprint">{{ $t('footer.terms') }}</router-link>
     </div>
   </template>
   

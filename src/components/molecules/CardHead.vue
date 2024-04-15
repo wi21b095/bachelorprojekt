@@ -3,7 +3,6 @@
   <div>
     <Title :type="titleType" :text="name">{{ name }}</Title>
     <Paragraph :text="price">{{ price }}</Paragraph>
-    <Paragraph :text="category">{{ category }}</Paragraph>
   </div>
 </template>
 

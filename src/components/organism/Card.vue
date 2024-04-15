@@ -13,6 +13,16 @@
   import CardHead from '@/components/molecules/CardHead.vue';
   import CardBody from '@/components/molecules/CardBody.vue';
   import CardFooter from '@/components/molecules/CardFooter.vue';
+
+  // Define a map of product names to image URLs
+const productNameToImageMap = {
+  'Brot': '/img/Brot.jpg',
+  'Milch': '/img/Milch.jpg',
+  'Eier': '/img/Eier.jpg',
+  'Käse': '/img/Käse.jpg',
+  'Wurst': '/img/Wurst.jpg',
+  'Butter': '/img/Butter.jpg',
+};
   
   export default {
     components: {
@@ -23,7 +33,7 @@
     props: ['cardData'],
     data(){
      return {
-      imageUrl: '/img/SYS_logo.jpg',
+      imageUrl: productNameToImageMap[this.cardData.name] || '/img/SYS_logo.jpg',
      };
     },
     

@@ -1,9 +1,9 @@
 <template>
   <div class="container">
     <div class="Home">
-      <Title :type="titleType">{{ titleContent }}</Title>
+      <Title :type="titleType">{{ $t('home.title') }}</Title>
       <div>
-        <Paragraph>{{ subtitleContent }}</Paragraph>
+        <Paragraph>{{ $t('home.subtitleContent') }}</Paragraph>
       </div>
 
       <SearchField
@@ -12,7 +12,7 @@
         :labelValue="labelValue"
         :inputId="inputId"
         :inputType="inputType"
-        :placeholder="searchPlaceholder"
+        :placeholder="$t('home.search')"
         @search="handleInput"
       ></SearchField>
 
@@ -47,8 +47,6 @@ export default {
   data() {
     return {
       titleType: "h1",
-      titleContent: "Willkommen auf unserer Auktionsplattform",
-      subtitleContent: "Hier sehen Sie unsere neuesten Objekte:",
       ClassStyle: "col-sm-7 col-md-5 col-lg-3",
       emitter: mitt(),
       labelId: "searchLabel1",
@@ -56,7 +54,6 @@ export default {
       labelValue: "Search",
       inputId: "searchInput1",
       inputType: "text",
-      searchPlaceholder: "Search...",
       searchQuery: "",
       searchResults: [],
       products: [],

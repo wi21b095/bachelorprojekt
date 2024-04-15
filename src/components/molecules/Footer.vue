@@ -4,9 +4,6 @@
       <router-link class="nav-link" to="/faq">{{ $t('footer.faq') }}</router-link>
       <router-link class="nav-link" to="/imprint">{{ $t('footer.imprint') }}</router-link>
       <router-link class="nav-link" to="/imprint">{{ $t('footer.terms') }}</router-link>
-      <router-link class="nav-link" to="/imprint">{{ $t('footer.contact') }}</router-link>
-
-
     </div>
   </template>
   

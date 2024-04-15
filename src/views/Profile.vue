@@ -1,4 +1,3 @@
-import Paragraph from '@/components/atoms/Paragraph.vue';
 <template>
   <div class="container">
     <div class="Profile">

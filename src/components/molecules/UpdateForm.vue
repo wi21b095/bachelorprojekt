@@ -1,26 +1,26 @@
 <template>
   <form @submit.prevent="submitForm">
-    <label for="gender">Gender:</label>
+    <label for="gender">{{$t('updateForm.gender')}}</label>
     <br />
     <input v-model="formData.gender" type="text" id="gender" />
     <br />
-    <label for="salutation">Salutation:</label>
+    <label for="salutation">{{$t('updateForm.salutation')}}</label>
     <br />
     <input v-model="formData.salutation" type="text" id="salutation" />
     <br />
-    <label for="email">Email:</label>
+    <label for="email">{{$t('updateForm.email')}}</label>
     <br />
     <input v-model="formData.email" type="text" id="email" />
     <br />
-    <label for="username">Username:</label>
+    <label for="username">{{$t('updateForm.username')}}</label>
     <br />
     <input v-model="formData.username" type="text" id="username" />
     <br />
-    <label for="password">Password:</label>
+    <label for="password">{{$t('updateForm.password')}}</label>
     <br />
     <input v-model="formData.password" type="text" id="password" />
     <br />
-    <Button type="submit">Update</Button>
+    <Button type="submit">{{$t('updateForm.update')}}</Button>
   </form>
 </template>
 

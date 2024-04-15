@@ -1,20 +1,19 @@
 <template>
   <div class="container">
     <div class="Imprint">
-      <Title :type="titleType">{{ titleContent }}</Title>
+      <Title :type="titleType">{{ $t('imprint.title') }}</Title>
       <hr />
       <div>
-        <Title type="h2">Angaben gemäß § 5 ECG</Title>
+        <Title :type="subTitle">{{ $t('imprint.paragraph') }}</Title>
         <Paragraph>
-          Max Mustermann<br />
-          Musterstraße 1<br />
-          12345 Musterstadt
+          {{ $t('imprint.name') }} <br />
+
+          {{ $t('imprint.address') }}
         </Paragraph>
-        <Title type="h2">Kontakt</Title>
+        <Title :type="subTitle">{{ $t('imprint.contact') }}</Title>
         <Paragraph>
-          Telefon: 01234-789456<br />
-          Telefax: 1234-56789<br />
-          E-Mail: max@musterperson.at
+          {{ $t('imprint.phone') }} <br />
+          {{ $t('imprint.email') }}
         </Paragraph>
       </div>
     </div>
@@ -35,7 +34,7 @@ export default {
   data() {
     return {
       titleType: "h1",
-      titleContent: "Imprint",
+      subTitle: "h2",
     };
   },
 };

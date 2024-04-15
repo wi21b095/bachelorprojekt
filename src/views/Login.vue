@@ -2,7 +2,7 @@
 <template>
   <div class="container">
     <div class="login">
-      <Title :type="titleType">{{ titleContent }}</Title>
+      <Title :type="titleType">{{ $t('login.title') }}</Title>
       <hr />
       <!-- call the submit function when clicking enter or when clicking the button -->
       <!-- the button needs to be a type submit -->
@@ -13,7 +13,7 @@
   <div>
     <Modal v-if="showModal" @closeModal="closeModal">
       <!-- Content to display in the modal goes here -->
-      <p>Wrong Credentials</p>
+      <p>{{ $t('login.wrongCredentials') }}</p>
     </Modal>
   </div>
 </template>
@@ -34,7 +34,6 @@ export default {
 
   setup() {
     const titleType = "h1";
-    const titleContent = "Login";
     const registeredUser = ref(null);
     const showModal = ref(false);
 
@@ -118,7 +117,6 @@ export default {
       openModal,
       closeModal,
       titleType,
-      titleContent,
     };
   },
 };

@@ -1,0 +1,46 @@
+{
+    "loginError": "Fehler während login: ",
+    "footer": {
+        "privacy": "Datenschutz",
+        "faq": "FAQ",
+        "imprint": "Impressum",
+        "terms": "AGB",
+        "contact": "Kontakt"
+    },
+    "navbar": {
+        "welcome": "Willkommen",
+        "logout": "Abmelden",
+        "login": "Anmelden",
+        "register": "Registrieren",
+        "profile": "Profil",
+        "management": "Verwalten",
+        "german": "Deutsch",
+        "english": "Englisch"
+    },
+    "cardFooter": {
+        "buttonText": "Auf die Merkliste",
+        "buttonText1": "Gebot abgeben"
+    },
+    "genderForm": {
+        "male": "Männlich",
+        "female": "Weiblich",
+        "diverse": "Divers"
+    },
+    "registerForm": {
+        "gender": "Geschlecht",
+        "male": "Männlich",
+        "female": "Weiblich",
+        "diverse": "Divers",
+        "diverseDetails": "Divers (bitte Details angeben)",
+        "username": "Benutzername:",
+        "email": "E-Mail:",
+        "password": "Passwort:",
+        "register": "Registrieren"
+    },
+    "loginForm": {
+        "username": "Benutzername:",
+        "password": "Passwort:",
+        "login": "Anmelden",
+        "missingCredentials": "Fehlende Berechtigungen"
+    }
+}

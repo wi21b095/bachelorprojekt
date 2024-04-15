@@ -1,0 +1,47 @@
+{
+    "loginError": "Error during login: ",
+    "footer": {
+        "privacy": "Privacy",
+        "faq": "FAQ",
+        "imprint": "Imprint",
+        "terms": "Terms",
+        "contact": "Contact"
+    },
+    "navbar": {
+        "welcome": "Welcome",
+        "logout": "Logout",
+        "login": "Login",
+        "register": "Register",
+        "profile": "Profile",
+        "management": "Management",
+        "german": "German",
+        "english": "English"
+    },
+    "cardFooter": {
+        "buttonText": "Add to watchlist",
+        "buttonText1": "Place a bid"
+    },
+    "genderForm": {
+        "male": "Male",
+        "female": "Female",
+        "diverse": "Diverse"
+    },
+    "registerForm": {
+        "gender": "Sex",
+        "male": "Male",
+        "female": "Female",
+        "diverse": "Diverse",
+        "diverseDetails": "Diverse (more details)",
+        "username": "Username:",
+        "email": "E-Mail:",
+        "password": "Password:",
+        "register": "Register"
+    },
+    "loginForm": {
+        "username": "Username:",
+        "password": "Password:",
+        "login": "Login",
+        "missingCredentials": "Missing Credentials"
+    },
+    "search": "Search..."
+}

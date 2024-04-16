@@ -7,19 +7,6 @@ const routes = [
     name: "home",
     component: Home,
   },
-
-  {
-    path: "/login",
-    name: "login",
-    component: () =>
-      import(/* webpackChunkName: "login" */ "../views/Login.vue"),
-  },
-  {
-    path: "/register",
-    name: "register",
-    component: () =>
-      import(/* webpackChunkName: "register" */ "../views/Register.vue"),
-  },
   {
     path: "/faq",
     name: "faq",
@@ -38,22 +25,10 @@ const routes = [
       import(/* webpackChunkName: "imprint" */ "../views/Imprint.vue"),
   },
   {
-    path: "/profile",
-    name: "profile",
+    path: "/plural",
+    name: "plural",
     component: () =>
-      import(/* webpackChunkName: "profile" */ "../views/Profile.vue"),
-  },
-  {
-    path: "/logout",
-    name: "logout",
-    component: () =>
-      import(/* webpackChunkName: "logout" */ "../views/Logout.vue"),
-  },
-  {
-    path: "/management",
-    name: "management",
-    component: () =>
-      import(/* webpackChunkName: "management" */ "../views/Management.vue"),
+      import(/* webpackChunkName: "plural" */ "../views/Plural.vue"),
   },
 ];
 

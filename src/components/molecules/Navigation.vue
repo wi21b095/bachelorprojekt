@@ -1,35 +1,13 @@
 <template>
   <div>
     <router-link class="nav-link" to="/">{{ $t('navbar.welcome') }}</router-link>
-    <router-link v-if="isUserLoggedIn" class="nav-link" to="/profile"
-      >{{ $t('navbar.profile') }}</router-link
-    >
-    <router-link v-if="isUserLoggedIn" class="nav-link" to="/logout"
-      >{{ $t('navbar.logout') }}</router-link
-    >
-    <router-link v-if="!isUserLoggedIn" class="nav-link" to="/login"
-      >{{ $t('navbar.login') }}</router-link
-    >
-    <router-link v-if="!isUserLoggedIn" class="nav-link" to="/register"
-      >{{ $t('navbar.register') }}</router-link
-    >
-    <router-link
-      v-if="adminRole === store.role"
-      class="nav-link"
-      to="/management"
-      >{{ $t('navbar.management') }}</router-link
-    >
-
+    <router-link class="nav-link" to="plural">{{ $t('navbar.plural') }}</router-link>
     <div class="language-select">
       <select v-model="selectedLanguage" @change="handleChange">
         <option value="de" class="de-option">{{ $t('navbar.german') }}</option>
         <option value="en" class="en-option">{{ $t('navbar.english') }}</option>
       </select>
   </div>
-
-    <div v-if="isUserLoggedIn">
-      Welcome, {{ store.salutation }} {{ username }} !
-    </div>
   </div>
 </template>
 
@@ -38,24 +16,17 @@ import { useUserStore } from "@/pinia-store/user";
 
 export default {
   name: "Navigation",
-  props: ["usernameProp"],
+
   data() {
     return {
       store: useUserStore(),
-      isUserLoggedIn: localStorage.getItem("isLoggedIn"),
-      username: this.usernameProp,
-      adminRole: "ROLE_ADMIN",
       selectedLanguage: "de",
     };
   },
   mounted() {
-    this.getUser();
     this.$i18n.locale = "de";
   },
   methods: {
-    getUser() {
-      this.username = localStorage.getItem("username");
-    },
     handleChange() {
       if (this.selectedLanguage === 'de') {
         this.changeLanguageDe();
@@ -77,7 +48,6 @@ export default {
 
 };
 </script>
-
 <style>
 .nav-link {
   display: inline;
@@ -105,6 +75,5 @@ export default {
 
   padding: 1rem;
 }
-
 
 </style>

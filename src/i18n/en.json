@@ -1,55 +1,14 @@
 {
-    "loginError": "Error during login: ",
     "footer": {
         "privacy": "Privacy",
         "faq": "FAQ",
-        "imprint": "Imprint",
-        "terms": "Terms",
-        "contact": "Contact"
+        "imprint": "Imprint"
     },
     "navbar": {
         "welcome": "Welcome",
-        "logout": "Logout",
-        "login": "Login",
-        "register": "Register",
-        "profile": "Profile",
-        "management": "Management",
+        "plural": "Plural",
         "german": "German",
         "english": "English"
-    },
-    "cardFooter": {
-        "buttonText": "Add to watchlist",
-        "buttonText1": "Place a bid"
-    },
-    "genderForm": {
-        "male": "Male",
-        "female": "Female",
-        "diverse": "Diverse"
-    },
-    "registerForm": {
-        "gender": "Sex",
-        "male": "Male",
-        "female": "Female",
-        "diverse": "Diverse",
-        "diverseDetails": "Diverse (more details)",
-        "username": "Username:",
-        "email": "E-Mail:",
-        "password": "Password:",
-        "register": "Register"
-    },
-    "loginForm": {
-        "username": "Username:",
-        "password": "Password:",
-        "login": "Login",
-        "missingCredentials": "Missing Credentials"
-    },
-    "updateForm": {
-        "gender": "Sex",
-        "salutation": "Salutation",
-        "username": "Username:",
-        "email": "E-Mail:",
-        "password": "Password:",
-        "update": "Update"
     },
     "privacy": {
         "title": "Privacy",
@@ -83,19 +42,27 @@
       },
       "home":{
         "title": "Welcome to our auction platform",
-        "subtitleContent": "Here you can find a variety of products that you can bid on. You can also add products to your watchlist and view your profile.",
-        "search": "Search..."
+        "subtitleContent": "Here you can find a variety of products that you can bid on. You can also add products to your watchlist and view your profile."
       },
     "imprint":{
         "title": "Imprint",
-        "paragraph": "Angaben gemäß § 5 ECG",
+        "paragraph": "Information according to § 5 ECG",
         "name": "Name: Auktionsplattform",
         "address": "Adress: Musterstraße 123, 12345 Musterstadt",
-        "contact":"Kontact",
+        "contact":"Contact",
         "phone": "Telephon: 0123 456789",
         "email": "E-Mail: max@musterperson.at"
     },
-    "login": {
-        "title": "Login"
-    }
+    "card":{
+        "added": "Added",
+        "likes": "Nobody ❤️ this yet 😕 | {n} person ❤️ this | {n} people ❤️ this"
+    },
+    "plural": {
+      "bread": "bread | bread | breads",
+      "cheese": "cheese | cheeses",
+      "oranges": "orange | oranges",
+      "sausages": "sausage | sausages",
+      "car": "car | cars",
+      "tree": "tree | trees"
+  }
 }

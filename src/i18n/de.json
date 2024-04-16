@@ -1,55 +1,14 @@
 {
-    "loginError": "Fehler während login: ",
     "footer": {
         "privacy": "Datenschutz",
         "faq": "FAQ",
-        "imprint": "Impressum",
-        "terms": "AGB",
-        "contact": "Kontakt"
+        "imprint": "Impressum"
     },
     "navbar": {
         "welcome": "Willkommen",
-        "logout": "Abmelden",
-        "login": "Anmelden",
-        "register": "Registrieren",
-        "profile": "Profil",
-        "management": "Verwalten",
+        "plural": "Mehrzahl",
         "german": "Deutsch",
         "english": "Englisch"
-    },
-    "cardFooter": {
-        "buttonText": "Auf die Merkliste",
-        "buttonText1": "Gebot abgeben"
-    },
-    "genderForm": {
-        "male": "Männlich",
-        "female": "Weiblich",
-        "diverse": "Divers"
-    },
-    "registerForm": {
-        "gender": "Geschlecht",
-        "male": "Männlich",
-        "female": "Weiblich",
-        "diverse": "Divers",
-        "diverseDetails": "Divers (bitte Details angeben)",
-        "username": "Benutzername:",
-        "email": "E-Mail:",
-        "password": "Passwort:",
-        "register": "Registrieren"
-    },
-    "loginForm": {
-        "username": "Benutzername:",
-        "password": "Passwort:",
-        "login": "Anmelden",
-        "missingCredentials": "Fehlende Berechtigungen"
-    },
-    "updateForm": {
-        "gender": "Gender",
-        "salutation": "Anrede",
-        "username": "Username:",
-        "email": "E-Mail:",
-        "password": "Passwort:",
-        "update": "Update"
     },
     "privacy": {
         "title": "Datenschutz",
@@ -95,8 +54,16 @@
         "phone": "Telefon: 0123 456789",
         "email": "E-Mail: max@musterperson.at"
     },
-    "login": {
-        "title": "Login",
-        "wrongCredentials": "Falsche Berechtigungen"
+    "card":{
+        "added": "Added",
+        "likes": "Niemand ❤️ das bisher 😕 | {n} Person ❤️ das | {n} Personen ❤️ das"
+    },
+    "plural": {
+        "bread": "Brote | Brot | Brote",
+        "cheese": "Käse | Käse | Käse",
+        "oranges": "Orangen | Orange | Orangen",
+        "sausages": "Würste | Wurst | Würste",
+        "car": "Autos | Auto | Autos",
+        "tree": "Bäume | Baum | Bäume"
     }
 }

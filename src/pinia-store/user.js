@@ -15,6 +15,9 @@ export const useUserStore = defineStore("user", {
       salutation: "",
     };
   },
+  exports: {
+    i18n,
+  },
   getters: {
     isLoggedIn() {
       return this.email !== "" && this.username !== "";

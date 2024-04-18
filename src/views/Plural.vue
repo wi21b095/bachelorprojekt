@@ -2,7 +2,7 @@
     <div class="container">
         <div class="content">
             <div class="input-container">
-                <input v-model="number" type="number" />
+                <input class="input" v-model="number" type="number" :placeholder="$t('plural.search')" />
             </div>
             <div class="images">
                 <img src="/img/Brot.jpg" @click="displayText('bread')" alt="Brot" class="image" />
@@ -71,6 +71,12 @@ export default {
     height: 100px;
     margin-right: 10px;
     cursor: pointer;
+}
+
+.input {
+    width: 205px;
+    height: 30px;
+    text-align: left;
 }
 
 .display {

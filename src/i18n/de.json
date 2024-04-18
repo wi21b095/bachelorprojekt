@@ -4,7 +4,8 @@
         "plural": "Mehrzahl",
         "time": "Zeit",
         "german": "Deutsch",
-        "english": "Englisch"
+        "english": "Englisch",
+        "japanese": "Japanisch"
     },
     "home": {
         "title": "Einführung in die Internationalisierung",
@@ -14,6 +15,7 @@
         "content3": "Hierunter fallen diejenigen Aufgaben, die der Entwickler/Programmierer eines Programms bewältigen muss. Dazu darf er zum Beispiel Beschreibungstexte nicht im Quellcode fest kodieren, sondern muss Variablen benutzen, die von einer Quelle zur Laufzeit eingelesen werden. Aber auch Datumsformatierungen und die sprachabhängige Oberflächengestaltung (z. B. kann Text unterschiedlich lang sein oder die Rechts-Nach-Links-Orientierung kann sich unterscheiden) gehören hierzu."
     },
     "plural": {
+        "search": "Bitte eine Zahl eingeben: ",
         "bread": "Brote | Brot | Brote",
         "cheese": "Käse | Käse | Käse",
         "oranges": "Orangen | Orange | Orangen",
@@ -21,6 +23,10 @@
         "car": "Autos | Auto | Autos",
         "tree": "Bäume | Baum | Bäume"
     },
+    "time": {
+        "short": "Heutiges Datum (kurz): ",
+        "long": "Heutiges Datum (lang): "
+      },
     "footer": {
         "imprint": "Impressum"
     },

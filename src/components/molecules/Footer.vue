@@ -32,7 +32,7 @@
   }
   
   .nav-link:hover {
-    color: rgb(209, 6, 6);
+    color:green;;
   }
   </style>
   

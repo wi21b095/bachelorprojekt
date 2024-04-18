@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <div class="Time">
-      <p>Today's date (short format): {{ $d(new Date(), 'short') }}</p>
-  <p>Today's date (long format): {{ $d(new Date(), 'long') }}</p>
+      <p>{{ $t('time.short') }} {{ $d(new Date(), 'short') }}</p>
+      <p>{{ $t('time.long') }} {{ $d(new Date(), 'long') }}</p>
     </div>
   </div>
 </template>

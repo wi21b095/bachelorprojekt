@@ -1,6 +1,7 @@
 import { createI18n } from 'vue-i18n';
 import de from '../i18n/de.json';
 import en from '../i18n/en.json';
+import ja from '../i18n/ja-JP.json';
 import numberFormats from "../i18n/number-formats";
 import datetimeFormats from "../i18n/date-time-formats";
 
@@ -11,6 +12,7 @@ const i18n = createI18n({
   messages: {
     de: de,
     en: en,
+    ja: ja,
   },
   datetimeFormats,
   numberFormats

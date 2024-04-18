@@ -4,7 +4,8 @@
     "plural": "Plural",
     "time": "Time",
     "german": "German",
-    "english": "English"
+    "english": "English",
+    "japanese": "Japanese"
   },
   "home": {
     "title": "Introduction to internationalisation",
@@ -14,12 +15,17 @@
     "content3": "This includes the tasks that the developer/programmer of a programme has to master. For example, they may not hard-code descriptive texts in the source code, but must use variables that are read in from a source at runtime. This also includes date formatting and language-dependent interface design (e.g. text can be of different lengths or the right-to-left orientation can differ)."
   },
   "plural": {
+    "search": "Please enter a number: ",
     "bread": "bread | bread | breads",
     "cheese": "cheese | cheeses",
     "oranges": "orange | oranges",
     "sausages": "sausage | sausages",
     "car": "car | cars",
     "tree": "tree | trees"
+  },
+  "time": {
+    "short": "Today's date (short): ",
+    "long": "Today's date (long): "
   },
   "footer": {
     "imprint": "Imprint"

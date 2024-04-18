@@ -7,6 +7,7 @@
       <select v-model="selectedLanguage" @change="handleChange">
         <option value="de" class="de-option">{{ $t('navbar.german') }}</option>
         <option value="en" class="en-option">{{ $t('navbar.english') }}</option>
+        <option value="ja-JP" class="ja-JP-option">{{ $t('navbar.japanese') }}</option>
       </select>
   </div>
   </div>
@@ -28,12 +29,15 @@ export default {
   },
   methods: {
     handleChange() {
-      if (this.selectedLanguage === 'de') {
-        this.changeLanguageDe();
-      } else if (this.selectedLanguage === 'en') {
-        this.changeLanguageEn();
-      }
-    },
+  if (this.selectedLanguage === 'de') {
+    this.changeLanguageDe();
+  } else if (this.selectedLanguage === 'en') {
+    this.changeLanguageEn();
+  } else if (this.selectedLanguage === 'ja-JP') {
+    this.changeLanguageJp();
+  }
+},
+
     changeLanguageDe() {
       // Handle language change to German
       this.$i18n.locale = "de";
@@ -43,6 +47,11 @@ export default {
       // Handle language change to English
       this.$i18n.locale = "en";
       this.selectedLanguage = "en";
+    },
+    changeLanguageJp() {
+      // Handle language change to Japanese
+      this.$i18n.locale = "ja-JP";
+      this.selectedLanguage = "ja-JP";
     }
   }
 
@@ -58,7 +67,7 @@ export default {
 }
 
 .nav-link:hover {
-  color: rgb(209, 6, 6);
+  color: green;;
 }
 
 .img_flag {

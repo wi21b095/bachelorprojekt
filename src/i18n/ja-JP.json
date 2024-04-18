@@ -1,0 +1,45 @@
+{
+    "navbar": {
+      "welcome": "歓迎",
+      "plural": "複数",
+      "time": "時間",
+      "german": "ドイツ語",
+      "english": "英語",
+      "japanese": "日本語"
+    },
+    "home": {
+      "title": "国際化入門",
+      "subtitle": "国際化（ソフトウェア開発）",
+      "content1": "コンピュータサイエンスやソフトウェア開発において、国際化とは、他の言語や文化に容易に適応できるようにプログラムを設計することを意味する。",
+      "content2": "国際化はしばしばi18nという数字で略される（英語のinternationalisationには、最初の文字Iと最後の文字nの間に18文字がある）。",
+      "content3": "これには、プログラムの開発者／プログラマーがマスターしなければならない作業も含まれる。",
+      "content4": "例えば、ソースコードに説明文をハードコードすることはできないが、実行時にソースから読み込まれる変数を使用しなければならない。これには、日付のフォーマットや言語に依存したインターフェース設計も含まれる。"
+    },
+    "plural": {
+      "search": "番号を入力してください： ",
+      "bread": "bread | bread | breads",
+      "cheese": "cheese | cheeses",
+      "oranges": "orange | oranges",
+      "sausages": "sausage | sausages",
+      "car": "car | cars",
+      "tree": "tree | trees"
+    },
+    "time": {
+      "short": "今日の日付（略）： ",
+      "long": "今日の日付（月）："
+    },
+    "footer": {
+      "imprint": "Imprint"
+    },
+    "imprint": {
+      "title": "Imprint",
+      "author": "Author",
+      "authorName": "Benedikt Hauser",
+      "description": "Description",
+      "content": "This website was created as part of my bachelor thesis to demonstrate the internationalisation of websites. The content is fictitious and is for demonstration purposes only. Any translation errors are to be apologised for.",
+      "address": "Adress: Musterstraße 123, 12345 Musterstadt",
+      "contact": "Contact",
+      "phone": "Telephon: 0123 456789",
+      "email": "E-Mail: max@musterperson.at"
+    }
+  }

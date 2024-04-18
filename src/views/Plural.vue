@@ -7,7 +7,7 @@
             <div class="images">
                 <img src="/img/Brot.jpg" @click="displayText('bread')" alt="Brot" class="image" />
                 <img src="/img/Käse.jpg" @click="displayText('cheese')" alt="Käse" class="image" />
-                <img src="/img/Orangen.jpg" @click="displayText('oranges')" alt="Orangen" class="image" />
+                <img src="/img/Orange.jpg" @click="displayText('oranges')" alt="Orangen" class="image" />
                 <img src="/img/Wurst.jpg" @click="displayText('sausages')" alt="Würstchen" class="image" />
                 <img src="/img/car.jpg" @click="displayText('car')" alt="Auto" class="image" />
                 <img src="/img/tree.jpg" @click="displayText('tree')" alt="Baum" class="image" />

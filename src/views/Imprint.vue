@@ -4,12 +4,13 @@
       <Title :type="titleType">{{ $t('imprint.title') }}</Title>
       <hr />
       <div>
-        <Title :type="subTitle">{{ $t('imprint.paragraph') }}</Title>
+        <Title :type="subTitle">{{ $t('imprint.author') }}</Title>
         <Paragraph>
-          {{ $t('imprint.name') }} <br />
-
-          {{ $t('imprint.address') }}
-        </Paragraph>
+          {{ $t('imprint.authorName') }}
+         </Paragraph> 
+         <Title :type="subTitle">{{ $t('imprint.description') }}</Title>
+         {{ $t('imprint.content') }}
+        
         <Title :type="subTitle">{{ $t('imprint.contact') }}</Title>
         <Paragraph>
           {{ $t('imprint.phone') }} <br />

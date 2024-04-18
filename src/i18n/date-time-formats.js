@@ -1,11 +1,50 @@
-const dateTimeFormats = {
-    en: {
-      short: { year: "numeric", month: "short", day: "numeric" }
+const datetimeFormats = {
+  'de': {
+    short: {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
     },
-    de: {
-      short: { year: "numeric", month: "short", day: "numeric" }
-    }
-  }
-  
-  export default dateTimeFormats
-  
+    long: {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+      weekday: "short",
+      hour: "numeric",
+      minute: "numeric",
+    },
+  },
+  'en': {
+    short: {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+    },
+    long: {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+      weekday: "short",
+      hour: "numeric",
+      minute: "numeric",
+      hour12: true,
+    },
+  },
+  "ja-JP": {
+    short: {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+    },
+    long: {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+      weekday: "short",
+      hour: "numeric",
+      minute: "numeric",
+      hour12: true,
+    },
+  },
+};
+export default datetimeFormats;

@@ -1,68 +1,38 @@
 {
-    "footer": {
-        "privacy": "Privacy",
-        "faq": "FAQ",
-        "imprint": "Imprint"
-    },
-    "navbar": {
-        "welcome": "Welcome",
-        "plural": "Plural",
-        "german": "German",
-        "english": "English"
-    },
-    "privacy": {
-        "title": "Privacy",
-        "collection": "What data do we collect?",
-        "collectionDescription": "We only collect the data that you voluntarily provide to us when you register, log in or provide information via the contact form.",
-        "usage": "How do we use your data?",
-        "usageDescription": "The data we collect is used to personalize your user experience and to improve our website. We use your information to respond to your requests, process orders and communicate with you.",
-        "protection": "How do we protect your data?",
-        "protectionDescription": "We use various security measures to protect your personal information when you place an order or access your personal information. We use secure servers and encrypt your data to prevent unauthorized access.",
-        "disclosure": "Will your data be passed on to third parties?",
-        "disclosureDescription": "We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information. However, this does not include trusted third parties who assist us in administering our website, conducting our business, or servicing our users, so long as those parties agree to keep this information confidential.",
-        "consent": "By using our website, you agree to our privacy policy.",
-        "contact": "If you have any questions about our privacy policy, you can reach us via the contact form."
-      },  
-      "faq": {
-        "title": "FAQ",
-        "register": "How can I register?",
-        "registerDescription": "To register, click on the 'Register' button and fill out the form.",
-        "login": "How can I log in?",
-        "loginDescription": "To log in, click on the 'Login' button and fill out the form.",
-        "logout": "How can I log out?",
-        "logoutDescription": "To log out, click on the 'Logout' button.",
-        "updateData": "How can I update my data?",
-        "updateDataDescription": "To update your data, click on the 'Profile' button and fill out the form.",
-        "deleteAccount": "How can I delete my account?",
-        "deleteAccountDescription": "To delete your account, click on the 'Profile' button and then click on the 'Delete' button.",
-        "forgotPassword": "How can I request a new password?",
-        "forgotPasswordDescription": "To request a new password, click on the 'Login' button and then click on the 'Forgot Password' button.",
-        "resetPassword": "How can I reset my password?",
-        "resetPasswordDescription": "To reset your password, click on the 'Login' button and then click on the 'Forgot Password' button."
-      },
-      "home":{
-        "title": "Welcome to our auction platform",
-        "subtitleContent": "Here you can find a variety of products that you can bid on. You can also add products to your watchlist and view your profile."
-      },
-    "imprint":{
-        "title": "Imprint",
-        "paragraph": "Information according to § 5 ECG",
-        "name": "Name: Auktionsplattform",
-        "address": "Adress: Musterstraße 123, 12345 Musterstadt",
-        "contact":"Contact",
-        "phone": "Telephon: 0123 456789",
-        "email": "E-Mail: max@musterperson.at"
-    },
-    "card":{
-        "added": "Added",
-        "likes": "Nobody ❤️ this yet 😕 | {n} person ❤️ this | {n} people ❤️ this"
-    },
-    "plural": {
-      "bread": "bread | bread | breads",
-      "cheese": "cheese | cheeses",
-      "oranges": "orange | oranges",
-      "sausages": "sausage | sausages",
-      "car": "car | cars",
-      "tree": "tree | trees"
+  "navbar": {
+    "welcome": "Welcome",
+    "plural": "Plural",
+    "time": "Time",
+    "german": "German",
+    "english": "English"
+  },
+  "home": {
+    "title": "Introduction to internationalisation",
+    "subtitle": "Internationalisation (software development)",
+    "content1": "In computer science and software development, internationalisation means designing a program in such a way that it can be easily adapted to other languages and cultures (without having to change the source code ).",
+    "content2": "Internationalisationis often abbreviated with the numeronym i18n (in the English word internationalisation there are 18 letters between the first letter I and the last letter n).",
+    "content3": "This includes the tasks that the developer/programmer of a programme has to master. For example, they may not hard-code descriptive texts in the source code, but must use variables that are read in from a source at runtime. This also includes date formatting and language-dependent interface design (e.g. text can be of different lengths or the right-to-left orientation can differ)."
+  },
+  "plural": {
+    "bread": "bread | bread | breads",
+    "cheese": "cheese | cheeses",
+    "oranges": "orange | oranges",
+    "sausages": "sausage | sausages",
+    "car": "car | cars",
+    "tree": "tree | trees"
+  },
+  "footer": {
+    "imprint": "Imprint"
+  },
+  "imprint": {
+    "title": "Imprint",
+    "author": "Author",
+    "authorName": "Benedikt Hauser",
+    "description": "Description",
+    "content": "This website was created as part of my bachelor thesis to demonstrate the internationalisation of websites. The content is fictitious and is for demonstration purposes only. Any translation errors are to be apologised for.",
+    "address": "Adress: Musterstraße 123, 12345 Musterstadt",
+    "contact": "Contact",
+    "phone": "Telephon: 0123 456789",
+    "email": "E-Mail: max@musterperson.at"
   }
 }

@@ -2,6 +2,7 @@
   <div>
     <router-link class="nav-link" to="/">{{ $t('navbar.welcome') }}</router-link>
     <router-link class="nav-link" to="plural">{{ $t('navbar.plural') }}</router-link>
+    <router-link class="nav-link" to="time">{{ $t('navbar.time') }}</router-link>
     <div class="language-select">
       <select v-model="selectedLanguage" @change="handleChange">
         <option value="de" class="de-option">{{ $t('navbar.german') }}</option>
@@ -12,14 +13,13 @@
 </template>
 
 <script>
-import { useUserStore } from "@/pinia-store/user";
+
 
 export default {
   name: "Navigation",
 
   data() {
     return {
-      store: useUserStore(),
       selectedLanguage: "de",
     };
   },

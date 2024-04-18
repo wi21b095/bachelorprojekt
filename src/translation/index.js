@@ -2,7 +2,8 @@ import { createI18n } from 'vue-i18n';
 import de from '../i18n/de.json';
 import en from '../i18n/en.json';
 import numberFormats from "../i18n/number-formats";
-import dateTimeFormats from "../i18n/date-time-formats";
+import datetimeFormats from "../i18n/date-time-formats";
+
 
 const i18n = createI18n({
   locale: navigator.language || 'de',
@@ -11,7 +12,7 @@ const i18n = createI18n({
     de: de,
     en: en,
   },
-  dateTimeFormats,
+  datetimeFormats,
   numberFormats
 });
 
@@ -24,5 +25,9 @@ if (import.meta.hot) {
     i18n.setLocaleMessage('de', newDe);
   });
 }
+
+
+
+
 
 export default i18n;

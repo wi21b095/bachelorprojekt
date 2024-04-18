@@ -1,62 +1,17 @@
 {
-    "footer": {
-        "privacy": "Datenschutz",
-        "faq": "FAQ",
-        "imprint": "Impressum"
-    },
     "navbar": {
         "welcome": "Willkommen",
         "plural": "Mehrzahl",
+        "time": "Zeit",
         "german": "Deutsch",
         "english": "Englisch"
     },
-    "privacy": {
-        "title": "Datenschutz",
-        "collection": "Welche Daten sammeln wir?",
-        "collectionDescription": "Wir sammeln nur die Daten, die du uns freiwillig zur Verfügung stellst, wenn du dich registrierst, dich einloggst oder Informationen über das Kontaktformular bereitstellst.",
-        "usage": "Wie verwenden wir deine Daten?",
-        "usageDescription": "Die von uns gesammelten Daten werden verwendet, um deine Benutzererfahrung zu personalisieren und um unsere Website zu verbessern. Wir nutzen deine Informationen, um auf deine Anfragen zu antworten, Bestellungen zu bearbeiten und um mit dir zu kommunizieren.",
-        "protection": "Wie schützen wir deine Daten?",
-        "protectionDescription": "Wir setzen verschiedene Sicherheitsmaßnahmen ein, um deine persönlichen Informationen zu schützen, wenn du eine Bestellung aufgibst oder auf deine persönlichen Informationen zugreifst. Wir verwenden sichere Server und verschlüsseln deine Daten, um unbefugten Zugriff zu verhindern.",
-        "disclosure": "Werden deine Daten an Dritte weitergegeben?",
-        "disclosureDescription": "Wir verkaufen, handeln oder übertragen deine persönlichen Daten nicht an Dritte. Dies schließt jedoch nicht vertrauenswürdige Dritte ein, die uns bei der Verwaltung unserer Website, der Durchführung unseres Geschäfts oder der Betreuung unserer Nutzer unterstützen, solange diese Parteien sich verpflichten, diese Informationen vertraulich zu behandeln.",
-        "consent": "Durch die Nutzung unserer Website stimmst du unserer Datenschutzerklärung zu.",
-        "contact": "Bei Fragen zur Datenschutzerklärung kannst du uns über das Kontaktformular erreichen."
-    },
-    "faq": {
-        "title": "FAQ",
-        "register": "Wie kann ich mich registrieren?",
-        "registerDescription": "Um sich zu registrieren, klicken Sie auf den Button 'Registrieren' und füllen Sie das Formular aus.",
-        "login": "Wie kann ich mich einloggen?",
-        "loginDescription": "Um sich einzuloggen, klicken Sie auf den Button 'Login' und füllen Sie das Formular aus.",
-        "logout": "Wie kann ich mich ausloggen?",
-        "logoutDescription": "Um sich auszuloggen, klicken Sie auf den Button 'Logout'.",
-        "updateData": "Wie kann ich meine Daten ändern?",
-        "updateDataDescription": "Um Ihre Daten zu ändern, klicken Sie auf den Button 'Profil' und füllen Sie das Formular aus.",
-        "deleteAccount": "Wie kann ich meine Daten löschen?",
-        "deleteAccountDescription": "Um Ihre Daten zu löschen, klicken Sie auf den Button 'Profil' und klicken Sie auf den Button 'Löschen'.",
-        "forgotPassword": "Wie kann ich ein neues Passwort anfordern?",
-        "forgotPasswordDescription": "Um ein neues Passwort anzufordern, klicken Sie auf den Button 'Login' und klicken Sie auf den Button 'Passwort vergessen'.",
-        "resetPassword": "Wie kann ich ein neues Passwort setzen?",
-        "resetPasswordDescription": "Um ein neues Passwort zu setzen, klicken Sie auf den Button 'Login' und klicken Sie auf den Button 'Passwort vergessen'."
-    },
     "home": {
-        "title": "Willkommen auf unserer Auktionsplattform",
-        "subtitleContent": "Hier finden Sie eine Vielzahl von Produkten, auf die Sie bieten können. Sie können auch Produkte zu Ihrer Beobachtungsliste hinzufügen und Ihr Profil einsehen.",
-        "search": "Suchen..."
-    },
-    "imprint":{
-        "title": "Impressum",
-        "paragraph": "Angaben gemäß § 5 ECG",
-        "name": "Name: Auktionsplattform",
-        "address": "Adresse: Musterstraße 123, 12345 Musterstadt",
-        "contact":"Kontakt",
-        "phone": "Telefon: 0123 456789",
-        "email": "E-Mail: max@musterperson.at"
-    },
-    "card":{
-        "added": "Added",
-        "likes": "Niemand ❤️ das bisher 😕 | {n} Person ❤️ das | {n} Personen ❤️ das"
+        "title": "Einführung in die Internationalisierung",
+        "subtitle": "Internationalisierung (Softwareentwicklung)",
+        "content1": "Internationalisierung bedeutet in der Informatik beziehungsweise in der Softwareentwicklung, ein Programm so zu gestalten, dass es leicht (ohne den Quellcode ändern zu müssen) an andere Sprachen und Kulturen angepasst werden kann.",
+        "content2": "Internationalisierung (englisch internationalization oder internationalisation) wird gerne mit dem Numeronym i18n abgekürzt (im englischen Wort Internationalization befinden sich 18 Buchstaben zwischen dem ersten Buchstaben I und dem letzten Buchstaben n).",
+        "content3": "Hierunter fallen diejenigen Aufgaben, die der Entwickler/Programmierer eines Programms bewältigen muss. Dazu darf er zum Beispiel Beschreibungstexte nicht im Quellcode fest kodieren, sondern muss Variablen benutzen, die von einer Quelle zur Laufzeit eingelesen werden. Aber auch Datumsformatierungen und die sprachabhängige Oberflächengestaltung (z. B. kann Text unterschiedlich lang sein oder die Rechts-Nach-Links-Orientierung kann sich unterscheiden) gehören hierzu."
     },
     "plural": {
         "bread": "Brote | Brot | Brote",
@@ -65,5 +20,19 @@
         "sausages": "Würste | Wurst | Würste",
         "car": "Autos | Auto | Autos",
         "tree": "Bäume | Baum | Bäume"
+    },
+    "footer": {
+        "imprint": "Impressum"
+    },
+    "imprint": {
+        "title": "Impressum",
+        "author": "Urheber",
+        "authorName": "Benedikt Hauser",
+        "description": "Beschreibung",
+        "content": "Diese Website wurde im Zuge meiner Bachelorarbeit angelegt, um die Internationalisierung von Webseiten zu demonstrieren. Die Inhalte sind frei erfunden und dienen nur zu Demonstrationszwecken. Etwaige Übersetzungsfehler sind zu entschuldigen.",
+        "address": "Adress: Musterstraße 123, 12345 Musterstadt",
+        "contact": "Kontakt",
+        "phone": "Telephon: 0123 456789",
+        "email": "E-Mail: max@musterperson.at"
     }
 }

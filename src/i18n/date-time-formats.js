@@ -1,5 +1,5 @@
 const datetimeFormats = {
-  'de': {
+  de: {
     short: {
       year: "numeric",
       month: "short",
@@ -14,7 +14,7 @@ const datetimeFormats = {
       minute: "numeric",
     },
   },
-  'en': {
+  en: {
     short: {
       year: "numeric",
       month: "short",
@@ -32,12 +32,19 @@ const datetimeFormats = {
   },
   "ja-JP": {
     short: {
-      year: 'numeric', month: 'short', day: 'numeric'
+      year: "numeric",
+      month: "short",
+      day: "numeric",
     },
     long: {
-      year: 'numeric', month: 'short', day: 'numeric',
-      weekday: 'short', hour: 'numeric', minute: 'numeric', hour12: true
-    }
-},
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+      weekday: "short",
+      hour: "numeric",
+      minute: "numeric",
+      hour12: true,
+    },
+  },
 };
 export default datetimeFormats;

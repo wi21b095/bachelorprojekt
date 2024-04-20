@@ -20,16 +20,14 @@ const i18n = createI18n({
 
 // Hot updates
 if (import.meta.hot) {
-  import.meta.hot.accept(['../i18n/en.json', '../i18n/de.json'], function () {
+  import.meta.hot.accept(['../i18n/en.json', '../i18n/de.json', '../i18n/ja-JP.json' ], function () {
     const newDe = require('../i18n/de.json');
     const newEn = require('../i18n/en.json');
+    const newJa = require('../i18n/ja-JP.json');
     i18n.setLocaleMessage('en', newEn);
     i18n.setLocaleMessage('de', newDe);
+    i18n.setLocaleMessage('ja', newJa);
   });
 }
-
-
-
-
 
 export default i18n;

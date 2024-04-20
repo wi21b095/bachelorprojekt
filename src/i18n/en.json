@@ -3,6 +3,7 @@
     "welcome": "Welcome",
     "plural": "Plural",
     "time": "Time",
+    "currency": "Currency",
     "german": "German",
     "english": "English",
     "japanese": "Japanese"
@@ -17,11 +18,11 @@
   "plural": {
     "search": "Please enter a number: ",
     "bread": "bread | bread | breads",
-    "cheese": "cheese | cheeses",
-    "oranges": "orange | oranges",
-    "sausages": "sausage | sausages",
-    "car": "car | cars",
-    "tree": "tree | trees"
+    "cheese": "cheeses | cheese | cheeses",
+    "oranges": "oranges | orange | oranges",
+    "sausages": "sausages | sausage | sausages",
+    "car": "cars | car | cars",
+    "tree": "trees | tree | trees"
   },
   "time": {
     "short": "Today's date (short): ",

@@ -3,6 +3,7 @@
       "welcome": "歓迎",
       "plural": "複数",
       "time": "時間",
+      "currency": "通貨",
       "german": "ドイツ語",
       "english": "英語",
       "japanese": "日本語"
@@ -17,29 +18,29 @@
     },
     "plural": {
       "search": "番号を入力してください： ",
-      "bread": "bread | bread | breads",
-      "cheese": "cheese | cheeses",
-      "oranges": "orange | oranges",
-      "sausages": "sausage | sausages",
-      "car": "car | cars",
-      "tree": "tree | trees"
+      "bread": "パン | パン",
+      "cheese": " チーズ | チーズ",
+      "oranges": "オレンジ | オレンジ",
+      "sausages": "ソーセージ | ソーセージ",
+      "car": "車 | 自動車",
+      "tree": "木 | 樹木"
     },
     "time": {
       "short": "今日の日付（略）： ",
       "long": "今日の日付（月）："
     },
     "footer": {
-      "imprint": "Imprint"
+      "imprint": "インプリント"
     },
     "imprint": {
-      "title": "Imprint",
-      "author": "Author",
+      "title": "インプリント",
+      "author": "著者名",
       "authorName": "Benedikt Hauser",
-      "description": "Description",
-      "content": "This website was created as part of my bachelor thesis to demonstrate the internationalisation of websites. The content is fictitious and is for demonstration purposes only. Any translation errors are to be apologised for.",
-      "address": "Adress: Musterstraße 123, 12345 Musterstadt",
-      "contact": "Contact",
-      "phone": "Telephon: 0123 456789",
-      "email": "E-Mail: max@musterperson.at"
+      "description": "説明",
+      "content": "このウェブサイトは、私の学士論文の一環として、ウェブサイトの国際化を実証するために作成されました。内容は架空のものであり、デモンストレーションのみを目的としています。翻訳に誤りがあった場合はご容赦ください。",
+      "address": "住所：Musterstraße 123、12345ムスターシュタット",
+      "contact": "連絡先情報：",
+      "phone": "テレフォン: 0123 456789",
+      "email": "Eメール: max@musterperson.at"
     }
   }

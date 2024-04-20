@@ -3,6 +3,7 @@
     <router-link class="nav-link" to="/">{{ $t('navbar.welcome') }}</router-link>
     <router-link class="nav-link" to="plural">{{ $t('navbar.plural') }}</router-link>
     <router-link class="nav-link" to="time">{{ $t('navbar.time') }}</router-link>
+    <router-link class="nav-link" to="currency">{{ $t('navbar.currency') }}</router-link>
     <div class="language-select">
       <select v-model="selectedLanguage" @change="handleChange">
         <option value="de" class="de-option">{{ $t('navbar.german') }}</option>
@@ -14,8 +15,6 @@
 </template>
 
 <script>
-
-
 export default {
   name: "Navigation",
 
@@ -24,37 +23,16 @@ export default {
       selectedLanguage: "de",
     };
   },
-  mounted() {
-    this.$i18n.locale = "de";
-  },
+
   methods: {
+    changeLanguage(newLocale) {
+      this.$i18n.locale = newLocale;
+      this.selectedLanguage = newLocale;
+    },
     handleChange() {
-  if (this.selectedLanguage === 'de') {
-    this.changeLanguageDe();
-  } else if (this.selectedLanguage === 'en') {
-    this.changeLanguageEn();
-  } else if (this.selectedLanguage === 'ja-JP') {
-    this.changeLanguageJp();
-  }
-},
-
-    changeLanguageDe() {
-      // Handle language change to German
-      this.$i18n.locale = "de";
-      this.selectedLanguage = "de";
+      this.changeLanguage(this.selectedLanguage);
     },
-    changeLanguageEn() {
-      // Handle language change to English
-      this.$i18n.locale = "en";
-      this.selectedLanguage = "en";
-    },
-    changeLanguageJp() {
-      // Handle language change to Japanese
-      this.$i18n.locale = "ja-JP";
-      this.selectedLanguage = "ja-JP";
-    }
-  }
-
+  },
 };
 </script>
 <style>
@@ -70,16 +48,10 @@ export default {
   color: green;;
 }
 
-.img_flag {
-  width: 30px;
-  height: 30px;
-  padding: 5px;
-}
-
 .language-select {
   position: absolute;
-  top: 50px; /* Beispiel: Abstand vom oberen Rand des übergeordneten Elements entsprechend der Höhe der nav-links */
-  right: 0; /* Dropdown-Menü am rechten Rand des übergeordneten Elements positionieren */
+  top: 50px;
+  right: 0;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 
   padding: 1rem;

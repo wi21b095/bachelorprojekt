@@ -9,10 +9,6 @@
   export default {
     name: "Footer",
     props: ["usernameProp"],
-
-    mounted() {
-      this.$i18n.locale = "de";
-    },
   };
   </script>
   <style>

@@ -25,6 +25,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "time" */ "../views/Time.vue"),
   },
+  {
+    path: "/currency",
+    name: "currency",
+    component: () =>
+      import(/* webpackChunkName: "currency" */ "../views/Currency.vue"),
+  },
 ];
 
 const router = createRouter({

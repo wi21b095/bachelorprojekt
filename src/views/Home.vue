@@ -8,10 +8,8 @@
         <Paragraph>{{ $t('home.content2') }}</Paragraph>
         <Paragraph>{{ $t('home.content3') }}</Paragraph>
       </div>
-
-
-      </div>
     </div>
+  </div>
 
 </template>
 
@@ -35,4 +33,3 @@ export default {
   },
 };  
 </script>
-

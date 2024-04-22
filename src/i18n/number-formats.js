@@ -31,7 +31,7 @@ const numberFormats = {
         useGrouping: false,
       },
     },
-    "ja-JP": {
+    ja: {
       currency: {
         style: "currency",
         currency: "JPY",

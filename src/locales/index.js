@@ -1,7 +1,7 @@
 import { createI18n } from 'vue-i18n';
 import de from '../i18n/de.json';
 import en from '../i18n/en.json';
-import ja from '../i18n/ja-JP.json';
+import ja from '../i18n/ja.json';
 import numberFormats from "../i18n/number-formats";
 import datetimeFormats from "../i18n/date-time-formats";
 
@@ -20,10 +20,10 @@ const i18n = createI18n({
 
 // Hot updates
 if (import.meta.hot) {
-  import.meta.hot.accept(['../i18n/en.json', '../i18n/de.json', '../i18n/ja-JP.json' ], function () {
+  import.meta.hot.accept(['../i18n/en.json', '../i18n/de.json', '../i18n/ja.json' ], function () {
     const newDe = require('../i18n/de.json');
     const newEn = require('../i18n/en.json');
-    const newJa = require('../i18n/ja-JP.json');
+    const newJa = require('../i18n/ja.json');
     i18n.setLocaleMessage('en', newEn);
     i18n.setLocaleMessage('de', newDe);
     i18n.setLocaleMessage('ja', newJa);

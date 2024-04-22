@@ -8,7 +8,7 @@
       <select v-model="selectedLanguage" @change="handleChange">
         <option value="de" class="de-option">{{ $t('navbar.german') }}</option>
         <option value="en" class="en-option">{{ $t('navbar.english') }}</option>
-        <option value="ja-JP" class="ja-JP-option">{{ $t('navbar.japanese') }}</option>
+        <option value="ja" class="ja-option">{{ $t('navbar.japanese') }}</option>
       </select>
   </div>
   </div>

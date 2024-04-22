@@ -30,7 +30,7 @@ const datetimeFormats = {
       hour12: true,
     },
   },
-  "ja-JP": {
+  "ja": {
     short: {
       year: "numeric",
       month: "short",

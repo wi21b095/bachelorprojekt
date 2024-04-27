@@ -1,3 +1,4 @@
+// This file contains the date and time formats for the different languages.
 const datetimeFormats = {
   de: {
     short: {
@@ -24,7 +25,7 @@ const datetimeFormats = {
       year: "numeric",
       month: "short",
       day: "numeric",
-      weekday: "short",
+      weekday: "long",
       hour: "numeric",
       minute: "numeric",
       hour12: true,
